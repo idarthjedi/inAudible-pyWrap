@@ -23,7 +23,7 @@ def main():
             """ split out the names at the first underscore """
             workingfile = file.split("_")[0]
             """ create the output file name """
-            commandtoexecute = "ffmpeg -activation_bytes %s -i %s%s -vn -c:a copy %s%s.mp4" % (activationbytes,
+            commandtoexecute = "ffmpeg -activation_bytes %s -i %s%s -vn -c:a copy %s%s.m4b" % (activationbytes,
                                                                                                workingdirectory,
                                                                                                file,
                                                                                                workingdirectory,
